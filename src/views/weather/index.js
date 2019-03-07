@@ -48,7 +48,7 @@ class Weather extends Component {
         </div>
         <div className="col-md-8">
           <WeatherForm getWeather={this.getWeather} />
-          <WeatherInfo data={this.state.data}/>
+          <WeatherInfo data={this.state.data} />
         </div>
       </div>
     );
